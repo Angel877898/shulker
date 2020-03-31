@@ -7,14 +7,14 @@
     <title>Shulker Box</title>
 </head>
 <body>
-<h1>Inicio</h1>
+<h1>Carpeta</h1>
     <nav id="menu">
         <ul>
             <li>
-                <a href="index.php"><b>Inicio</b></a>
+                <a href="index.php">Inicio</a>
             </li>
             <li>
-                <a href="carpeta.php">Mi Carpeta</a>
+                <a href="carpeta.php"><b>Mi Carpeta</b></a>
             </li>
             <li>
                 <a href="configuracion.php">Configuracion</a>
