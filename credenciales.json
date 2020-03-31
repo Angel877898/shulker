@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "shulkerbox-272814",
+  "private_key_id": "8ae07c6d45103ba0ec3493d50bd3ecff569ebf6f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCylh874ISpAkQs\nPrOOlyB/Xc21Tee+8YpmQesL5e79fW81a3luVYRXXpaLc63qPPD3RM7aSUwysm+I\nN52I4/EF6nUccTAqD/lEqvnylu3yStNLL0SgfpZ83TzEd0aUpaxiIC2X+ZKzHNZs\n9DjtJhpMQrxdLCEwIZ7rtoyLmUDnBjinzwdufiMuf7n9Fd27UTK//aFBW5TrBRuy\nvfxaYQJWjLQru504d0Glk5Ni9Q8uC9rHbZBBhbqosiAbM6n6qOGy6y6UI2F0BwfS\nk5Ng21II7KyRwnAg/OmKHzcFPjUs7srnQv+UCymHPepitOdVwsML/vRZdg5JVdF8\niE3O/ehjAgMBAAECggEAC/wDEJOak3Txej6i8hi2N5Xl7hrSSIARF5eo3F2L0jsO\nsXkK5xqaDPruA2G59BQu34kgkImGsYhD79I7oioZzJnVThlScCAuTCtlJqB2S2I2\nF7+OTW7xTmPSZiTS+bq8fMFIDgDTlW2D/j/Naiy6aw+3cFE70O0QqyTO/bdFIbuu\nX+vDX4JOzkz0M9xony8A8+GaJiAfTKHfH+i0DGLi1sHnHIWQvjCMG9vwvDyP3JjY\ngNcO/D4eSQeJNaYujGDvs7kd62ITUBh/7aSYQRh4x2FlDQ+hzjslkFpDExKybSek\nDeKqwyeIQEqHX3UxrR1h9FG42ew8m42CNQlZE4UrQQKBgQDlyfz50NHrGAkeZv1Q\nZ7sBr59d6C7oPu1NlPiYZDBiwIlkT/qaJTkdHj49pZa0DSDRiw9KiMBsVUsFjoga\nWOSbQRaUNpxB3tEAUC1lyFENgDo3QEA8GPnykxUtbhH/ui5Dc4C2sYgs6osK+GHB\nXJQsF94vQHDf2pboHe/uEIW60wKBgQDG9Pq5QZsWaG8+haVFhW9M89BZe7wESjwk\nKTCc03GDM3s6h4uenzd9VLB0WNNZUJuTcMf9HlaQJpfAfZJJhDoVguVjRW4NpQ37\nC2QWrgjvrMawjEJbRYpefQt3wmBkfTnDyJWo0oui3X9R2oRxZLByw/NMoJUKlqt7\n5/4dkaKCMQKBgQCmxIg3mcivkRsVGHOhhhbfa2EC2z4nyXuZwZMFrji7grZzuePL\nOVaQ/mD3hpSwCZMW4JBxbHwSY3h2CPJYBMmsr3k+ib+vwpD2ZDn+U3oXjUcy0AuO\nUiYcWYiWFvszGCD5TPtOG9wTlQjiJk9z8MeMlKnoqyEAJXk97nQx14XmhwKBgBsC\nbPszZdt/6AJD4HD0sWxv+Qv82UR303xRPzE7H0Dhf0wt1I1/LehM0/unh2GrqMM2\nX2AEe1nsc1OFeJOUaNI8x+lXJp6hlqlLHZZaoAnxmbOkBuofIa68KQ9kCvP5cBsd\nIvwdQSmmCj/Re4NtWOrroR74+eLLG5KhpwTanYYxAoGBANPlZoUKznJQOF47SLN0\njHTOzbmUavjxgMPHeJZhbI8uqQviydO+bvMETxb8G3et1dXUu893XIxxOos9i41r\nQ6rP1QqvxVQmg+f8vtDQ8oDJkQCIPNdAfB8a8+EdtPmxSzHlfHFfaigqX6imy2LY\n/HwKfKGxnxBIZcJ/ALH+D6my\n-----END PRIVATE KEY-----\n",
+  "client_email": "shulker@shulkerbox-272814.iam.gserviceaccount.com",
+  "client_id": "111690346103944936813",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/shulker%40shulkerbox-272814.iam.gserviceaccount.com"
+}
