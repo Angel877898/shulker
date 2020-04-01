@@ -32,7 +32,10 @@ include_once 'driveFunctions.php';
         <div class="descripcion">
                 <label for="carpeta">Mi carpeta</label>
         </div>
-       <input type="file" webkitdirectory directory multiple/>
+        <form action="subir.php" method="post">
+            <input type="file" webkitdirectory directory multiple id="carpeta[]" name="carpeta[]"/>
+            <input type="submit" value="enviar">
+        </form>
     </div>
 </body>
 </html>
