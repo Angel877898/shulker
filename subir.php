@@ -1,7 +1,7 @@
 <?php
 
-    $carpeta=$_POST['carpeta'];
-    
+  //  $carpeta=$_POST['carpeta'];
+    $carpeta=$_FILES['carpeta']['tmp_name'];
     var_dump($carpeta);
     for ($i = 0; $i < sizeof($carpeta); $i++) {
         print_r($carpeta[$i]);
@@ -18,7 +18,7 @@
         $service = new Google_Service_Drive($client);
 
         //ruta al archivo
-        $file_path = 'prueba/'.$carpeta[$i];
+        $file_path = $carpeta[$i];
 
         //instacia de archivo
         $file = new Google_Service_Drive_DriveFile();
