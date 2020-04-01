@@ -24,5 +24,8 @@
             </li>
         </ul>
 	</nav>
+    <div>
+     <img src="shulker.png" alt="logo" class="imgIndex">
+    </div>
 </body>
 </html>

@@ -6,6 +6,9 @@
     font-style: normal;
 }
 
+h1{
+    margin-left: 50%;
+}
 
 /*GENERALES*/
 *{
@@ -71,6 +74,8 @@ body{
     float: left;
     line-height: 44px;
     border-right: 1px solid #D6D6D6;
+    width: 340px;
+    text-align: center;
 }
 
 #menu ul li a{
@@ -83,4 +88,15 @@ body{
 
 #menu ul li a:hover{
     background: linear-gradient(to bottom, #f2f2f2 0px, #dad9d4 100%);
+}
+
+.imgIndex{
+    height: 400px;
+    width: 600px;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+.descripcion{
+    margin-left: 50%;
 }

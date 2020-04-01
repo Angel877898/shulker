@@ -1,3 +1,7 @@
+<?php
+include_once 'driveFunctions.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,5 +28,11 @@
             </li>
         </ul>
 	</nav>
+    <div id=cuerpo>
+        <div class="descripcion">
+                <label for="carpeta">Mi carpeta</label>
+        </div>
+       <input type="file" webkitdirectory directory multiple/>
+    </div>
 </body>
 </html>
