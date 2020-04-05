@@ -15,7 +15,7 @@
   </div>
   <div id="login" class="bloque">
     <h3>Identificate</h3>
-    <form id="inicio" name="form1" method="post" action="index.php" enctype="multipart/form-data">
+    <form id="inicio" name="form1" method="post" action="checklogin.php" enctype="multipart/form-data">
       <label>
         <input name="username" type="text" id="username" placeholder="Username" class="texto"/>
       </label>
@@ -23,7 +23,9 @@
         <input name="password" type="password" id="password" placeholder="Password" class="texto"/>
       </label>
       <label>
-        <input type="submit" name="Submit" value="Entrar" required id="entrar"/>
+        <input type="submit" name="login" value="Entrar" required id="entrar"/>
+        <input type="submit" name="register" value="Registrar" required id="registro"/>
+
       </label>
     </form>
   </div>
