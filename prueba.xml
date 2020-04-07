@@ -4,4 +4,20 @@
         <username>admin</username>
         <password>admin</password>
     </usuario>
-</usuarios>
+    <usuario>
+        <username>admin1</username>
+        <password>admin1</password>
+    </usuario>
+    <usuario>
+        <username>prueba</username>
+        <password>prueba</password>
+    </usuario>
+    <usuario>
+        <username>angel</username>
+        <password>angel</password>
+    </usuario>
+    <usuario>
+        <username>prueba1</username>
+        <password>prueba1</password>
+    </usuario>
+<usuario><username>www</username><password>www</password></usuario></usuarios>

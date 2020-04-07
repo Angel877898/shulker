@@ -12,7 +12,7 @@ $client = new Google_Client();
 $client->addScope(Google_Service_Drive::DRIVE);
 $client->useApplicationDefaultCredentials();
 $service = new Google_Service_Drive($client);
-$fileId = "1lTlXOj93fjXPxxcBHUt_FLlyXJY0jiZ5"; // Google File ID
+$fileId = "1tNMFmDWc9-7pGwXB_1atYHhXRHkAEvIc"; // Google File ID
 $content = $service->files->get($fileId, array("alt" => "media"));
 $outHandle = fopen("prueba.xml", "w+");
 while (!$content->getBody()->eof()) {
@@ -37,11 +37,19 @@ if (isset($_POST['register'])) {
         //unlink('prueba.xml');
         //header('Location: login.php');
     }else{
-        $sxe = new SimpleXMLElement($usuarios);
-        $nuevo = $sxe->addChild('usuario');
-        $nuevo->addChild('username', $username);
-        $nuevo->addChild('password', $password);
-        echo 'hola';
+        $xml= new DomDocument("1.0","UTF-8");
+        $xml->load('prueba.xml');
+
+        $rootTag=$xml->getElementsByTagName("usuarios")->item(0);
+        $infoTag=$xml->createElement("usuario");
+            $nameTag=$xml->createElement("username",$username);
+            $passTag=$xml->createElement("password",$username);
+        $infoTag->appendChild($nameTag);
+        $infoTag->appendChild($passTag);
+        $rootTag->appendChild($infoTag);
+        $xml->save('prueba.xml');
+        
+        
     }
 }
 elseif (isset($_POST['login'])) {
